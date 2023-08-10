@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct CoffeShopApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+    var body: some Scene{
+        WindowGroup{
+            CoffeView()
         }
     }
 }
+
